@@ -5,25 +5,25 @@ body{
     
   }
   
-  .everything{
+  .content-container{
     margin:2.5% 0;
     padding: 0;  
     margin-bottom: 15%;
   }
   
-  .adidas-logo{
+  .logo{
     display: flex;
     justify-content: center;
     
   }
   
-  .img-class{
+  .hero-image-mobile-wrapper{
     margin-top: 2.5%;
     display: flex;
     justify-content: center;
   }
   
-  .athlete-image{
+  .athlete-image-mobile{
     width: 375px;
     height: 250px;
     display: block;
@@ -91,7 +91,7 @@ body{
     border-radius: 0 3px 3px 0;
   }
   
-  .desktop-image {
+  .hero-image-desktop {
     display: none;
   }
   
@@ -104,13 +104,15 @@ body{
       display: flex;
     }
     
-    .everything{
+    .content-container{
       width: 50%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       margin: 100px 0 0 175px;;
     }
+
+  
 
     .content-wrapper{ 
         height: 80%; 
@@ -138,7 +140,7 @@ body{
         font-family:"AdiHaus Regular";
       }
     
-    .desktop-image{
+    .hero-image-desktop{
       display: block;
       width: 50%;
       background: url('https://assets.codepen.io/6060109/athlete-big.png');
@@ -146,7 +148,7 @@ body{
       clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
     }
     
-    .athlete-image{
+    .athlete-image-mobile{
       display: none;
     }
     
