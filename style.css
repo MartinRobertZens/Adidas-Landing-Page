@@ -23,6 +23,14 @@ body{
     justify-content: center;
   }
   
+  /*.content-wrapper{ 
+    height: 80%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+  }
+  */
+
   .athlete-image{
     width: 375px;
     height: 250px;
@@ -111,6 +119,13 @@ body{
       margin-left: 45px;
       margin: 45px 0 0 75px;
     }
+
+    .content-wrapper{ 
+        height: 80%; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+      }
     
     .desktop-image{
       display: block;
