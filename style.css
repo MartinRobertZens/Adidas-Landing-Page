@@ -23,14 +23,6 @@ body{
     justify-content: center;
   }
   
-  /*.content-wrapper{ 
-    height: 80%; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center;
-  }
-  */
-
   .athlete-image{
     width: 375px;
     height: 250px;
@@ -93,6 +85,7 @@ body{
     border-style: none;
     background-color:black;
     color: white;
+    font-family:"AdiHaus Regular";
     font-weight:bold;
     font-size:15px;
     border-radius: 0 3px 3px 0;
@@ -116,15 +109,33 @@ body{
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      margin-left: 45px;
-      margin: 45px 0 0 75px;
+      margin: 100px 0 0 175px;;
     }
 
     .content-wrapper{ 
         height: 80%; 
+        width: 100%;
         display: flex; 
         flex-direction: column; 
         justify-content: center;
+      }
+
+      h2{
+        font-size: 50px;
+      }
+
+      p{
+        font-size: 20px;
+      }
+
+      .input-submit{
+        font-size: 20px;
+        font-family:"AdiHaus Regular";
+      }
+
+      .input-text{
+        font-size: 20px;
+        font-family:"AdiHaus Regular";
       }
     
     .desktop-image{
